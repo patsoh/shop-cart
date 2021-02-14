@@ -6,4 +6,5 @@ const priceFormat = (price) => {
 
   return formattedPrice;
 };
+
 export { priceFormat };
