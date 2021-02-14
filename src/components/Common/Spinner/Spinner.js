@@ -2,4 +2,4 @@ import React from 'react';
 
 import './Spinner.css';
 
-export const Spinner = () => <div class="spinner"></div>;
+export const Spinner = () => <div className="spinner"></div>;
