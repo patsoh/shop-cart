@@ -1,0 +1,28 @@
+.product-quantity {
+  display: flex;
+  align-items: center;
+}
+
+.product-quantity-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-quantity-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 15px;
+  margin-left: 20px;
+  border: none;
+  background-color: silver;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.product-quantity-button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
